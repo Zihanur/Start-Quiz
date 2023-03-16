@@ -110,14 +110,14 @@
           </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFour">
             <button
               class="accordion-button collapsed fs-2 bg-success text-white my-2"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#panelsStayOpen-collapseFour"
               aria-expanded="false"
-              aria-controls="panelsStayOpen-collapseThree"
+              aria-controls="panelsStayOpen-collapseFour"
             >
               4. Event loop in javascript
             </button>
@@ -125,12 +125,42 @@
           <div
             id="panelsStayOpen-collapseFour"
             class="accordion-collapse collapse"
-            aria-labelledby="panelsStayOpen-headingThree"
+            aria-labelledby="panelsStayOpen-headingFour"
           >
             <div class="accordion-body fs-4">
               <p><strong>
                 JavaScript Event Loop:
               </strong>When JavaScript call then JS Machine waiting for execution in the queue. Event loop job is to monitor the call stack the queue. Event Loop is a process that wait for the call stack to be clear before pushing callback from the task queue. This is a Loop process.
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+            <button
+              class="accordion-button collapsed fs-2 bg-success text-white my-2"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFive"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseFive"
+            >
+              5. Details quizTimer and chooseQuiz
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseFive"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingFive"
+          >
+            <div class="accordion-body fs-4">
+              <p><strong>
+                quizTimer Function:
+              </strong>This function have one parameter. If parameter is True then enter the if condition and call clearInterval then return. If if-condition is false then create setInterval function. This function create time and set innerhtml in the count id.
+            </p>
+            <p>
+              <strong>chooseQuiz Function: </strong>
+              This function has two parameters one is index number of question and another is user-answer. If user amswer the quiz then enter the if-condition. User which option select this option color change and display it.
             </p>
             </div>
           </div>
