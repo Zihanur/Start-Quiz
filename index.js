@@ -5,11 +5,11 @@ let quizData;
 let answers = [];
 
 // Dom elements called
-let startQuiz = document.querySelector("#startQuiz");
+let startQuiz = document.getElementById("startQuiz");
 let rulesContainer = document.querySelector("#rulesContainer");
 let alertContainer = document.querySelector("#alertContainer");
 let submitContainer = document.querySelector("#submitContainer");
-let quizContainer = document.getElementsByClassName("#quizContainer");
+let quizContainer = document.getElementById("quizContainer");
 let answersContainer = document.querySelector("#answersContainer");
 let displayResult = document.querySelector("#displayResult");
 
@@ -58,9 +58,7 @@ const displayQuiz = (data) => {
     return;
   }
 
-  console.log(data)
   data.forEach((quiz, i) => {
-    console.log(quiz)
     quizContainer.innerHTML += `<div class="m-3 py-3 px-4 shadow-sm rounded">
   <div class="flex items-center">
     <div class="h-8 w-8 bg-green-300 rounded-full flex justify-center items-center text-green-800 mr-3">
