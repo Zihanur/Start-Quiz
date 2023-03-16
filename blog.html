@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blog</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="container">
+    <header class="my-4 p-4 bg-success text-white text-center rounded-top-2">
+      <h1>JavaScript Blog</h1>
+    </header>
+    <section>
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button
+              class="accordion-button fs-2 bg-success text-white my-2"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne"
+              aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne"
+            >
+              1. Different between map and forEach
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="panelsStayOpen-headingOne"
+          >
+            <div class="accordion-body fs-4">
+              <p>
+                <strong>Map() Method: </strong>Map method call a function in the
+                Array and check every array element at last return every
+                element. If need return in the Array then use Map.
+              </p>
+              <p>
+                <strong>ForEach() Method: </strong>ForEach method call a
+                function in the Array and check every array element but on
+                return every element. If check every element in the Array but no
+                return then use ForEach.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button
+              class="accordion-button collapsed fs-2 bg-success text-white my-2"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo"
+            >
+              2. Different between find and filter
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingTwo"
+          >
+            <div class="accordion-body fs-4">
+              <p>
+                <strong>Filter() Method: </strong>Filter method return all elements of the array that pass the condition in the call back function.
+              </p>
+              <p>
+                <strong>Find() Method: </strong>Find method return the 1st element of the array that match the condition.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button
+              class="accordion-button collapsed fs-2 bg-success text-white my-2"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree"
+            >
+              3. Difference between localstorage and sessionstorage and cookies
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingThree"
+          >
+            <div class="accordion-body fs-4">
+              <p>
+                <strong>Local Store: </strong>Local Store is property, that alow JavaScript sites to save value and this value-key in the browser storage. The stored data is not deleted when the browser closed. 
+              </p>
+              <p>
+                <strong>Session Store: </strong>
+              Session Store is property, it same of Local Store that alow JavaScript sites to save value and this value-key in the browser storage. But when the browswe the data will be deleted. It just a session when browser will run. 
+              </p>
+              <strong>Cookie: </strong>Our computer save our sort data. Example: our name, home address, mobile number, email etc. It is cookie. When we back the website cookie remember this name, mail or phone number. Cookie expire at certain time.
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button
+              class="accordion-button collapsed fs-2 bg-success text-white my-2"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFour"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree"
+            >
+              4. Event loop in javascript
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseFour"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingThree"
+          >
+            <div class="accordion-body fs-4">
+              <p><strong>
+                JavaScript Event Loop:
+              </strong>When JavaScript call then JS Machine waiting for execution in the queue. Event loop job is to monitor the call stack the queue. Event Loop is a process that wait for the call stack to be clear before pushing callback from the task queue. This is a Loop process.
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
